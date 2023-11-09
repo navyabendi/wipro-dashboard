@@ -2,6 +2,7 @@ import streamlit as st
 from pyecharts import options as opts
 from pyecharts.charts import Pie, Timeline
 from streamlit_echarts import st_pyecharts
+from streamlit_echarts import st_echarts
 import pandas as pd
 
 
