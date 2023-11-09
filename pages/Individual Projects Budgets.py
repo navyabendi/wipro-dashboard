@@ -7,7 +7,7 @@ from streamlit_echarts import st_echarts
 check = st.selectbox(
     'Select the Events to see the Event Related Data',
     ('Apple', 'Microsoft', 'Google',"UHC-Healthcare","Wipro-Internal","Cisco","United-Airlines"))
-st.subheader(":blue[Spending done in Individual Team]:")
+st.subheader(":blue[Fund Raised By our Voulunteer For the Events]:")
 
 if check == 'Apple':
     options = {
